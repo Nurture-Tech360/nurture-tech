@@ -1,0 +1,27 @@
+---
+import './hero.css';
+import Boton from '../atoms/Boton.astro';
+---
+
+<section class="hero">
+	<div class="hero__container">
+		<div class="text__content">
+			<h1 class="hero__title color__gradiente">Zahoor Ahmed</h1>
+			<p class="hero__text uppercase">
+				HEY! I am Zahoor Ahmed, but you can call me xao
+			</p>
+			<Boton href="#" texto="Need Sevices? Lets!! Go" />
+		</div>
+		<div
+			class="hover:scale-110 hover:-translate-y-5 hover:mb-0 transition-all duration-300 ease-in-out"
+		>
+			<img
+				class="hero__img"
+				src="/img/jhon-doe.webp"
+				alt="Zahoor Ahmed"
+				width="384"
+				height="384"
+			/>
+		</div>
+	</div>
+</section>
